@@ -1,0 +1,156 @@
+<html>
+
+
+<head>
+    <link rel="icon" type="image/x-icon" href="images/Netflix-N-Symbol-logo-red-transparent-RGB-png.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Manrope:wght@600&display=swap"
+        rel="stylesheet">
+    <title>Netflix</title>
+</head>
+
+<body class="bg-black">
+    <nav class="position-fixed d-flex justify-content-between z-3">
+        <div>
+            <div class="w-50 ps-5"><img src="images/netflix_PNG25.png" class="w-25" alt=""></div>
+        </div>
+        <div><a href="./Signin.html" class="signintext text-decoration-none">
+                <h2 id="SignIn" class="me-5 fs-4 mt-3">Sign<span class="ps-1">In</span></h2>
+            </a>
+        </div>
+    </nav>
+    <header>
+        <div class="header3">
+            <div class="header d-flex h-100 justify-content-center align-items-center">
+                <div class="w-50 col-sm-12 mx-auto bg-dark bg-opacity-25 rounded-3 text-white">
+                    <div class="p-5 col-sm-12">
+                        <h1>Sign Up</h1>
+                    </div>
+                    <form>
+                        <div class="w-75 d-flex justify-content-around col-sm-12 mx-auto">
+                            <div class="form-floating my-3 w-50 px-2">
+                                <input type="text" class="form-control form-border" id="signFirstName"
+                                    placeholder="First Name" />
+                                <ul class="signintext mt-3 invalid-feedback">
+                                    <li>First Name Is Required</li>
+                                    <li>Minmum Length 2 and maxmum 20</li>
+                                </ul>
+                                <label for="signEmailAdress">
+                                    <div class="text-secondary">
+                                        <h5 class="fs-6 mt-1 text-sec">First Name</h5>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="form-floating my-3 w-50 px-2">
+                                <input type="text" class="form-control form-border" id="signLastName"
+                                    placeholder="Last Name" />
+                                <ul class="signintext mt-3 invalid-feedback">
+                                    <li>Last Name Is Required</li>
+                                    <li>Minmum Length 2 and maxmum 20</li>
+                                </ul>
+                                <label for="signPassword">
+                                    <div class="text-secondary">
+                                        <h5 class="fs-6 mt-1 text-sec">Last Name</h5>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-floating my-3 w-75 mx-auto px-2">
+                            <input type="email" class="form-control form-border" id="signUpEmail"
+                                placeholder="Email address" />
+                            <ul class="signintext mt-3 invalid-feedback">
+                                <li>Email Is Required</li>
+                                <li>InValid Email Formate</li>
+                            </ul>
+                            <label for="signUpEmail">
+                                <div class="text-secondary">
+                                    <h5 class="fs-6 mt-1 text-sec">Email</h5>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-floating my-3 w-75 mx-auto px-2">
+                            <input type="password" class="form-control form-border" id="signUpPassword"
+                                placeholder="Password" />
+                            <ul class="signintext mt-3 invalid-feedback">
+                                <li>Password Is Required</li>
+                                <li>Minimum eight characters, at least one letter and one number</li>
+                            </ul>
+                            <label for="signUpPassword">
+                                <div class="text-secondary">
+                                    <h5 class="fs-6 mt-1 text-sec">Password</h5>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-floating my-3 w-75 mx-auto px-2">
+                            <input type="number" class="form-control form-border" id="signAge" placeholder="Age" />
+                            <ul class="signintext mt-3 invalid-feedback">
+                                <li>Age Is Required</li>
+                                <li>Minimum 10 Maxmum 100</li>
+                            </ul>
+                            <label for="signAge">
+                                <div class="text-secondary">
+                                    <h5 class="fs-6 mt-1 text-sec">Age</h5>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="row cols-sm-12 w-75 mt-5 px-2 mx-auto"><button id="signUp"
+                                 class="signinbtn btn btn-danger p-3 me-3" type="submit">Sign<span
+                                    class="ps-1">Up</span></button>
+                        </div>
+                    </form>
+                    <div class="d-flex my-5 justify-content-center">
+                        <p class="pe-1 text-secondary">Already a Member?</p>
+                        <a class="text-decoration-none text-light" id="signUpNow" href="Signin.html">Sign in</a>
+                    </div>
+                    <p id="msg" class="m-2 text-center signintext fs-3"></p>
+                </div>
+            </div>
+            <div class="bg-opacity-75 bg-black">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="row col-sm-12 mt-4">
+                            <div class="col-sm-12 text-center my-2 text-secondary">
+                                <p>Questions? Contact us.</p>
+                            </div>
+                            <div class="col-md-3 text-secondary">
+                                <p>FAQ</p>
+                                <p>Cookie Preferences</p>
+                            </div>
+                            <div class="col-md-3 text-secondary">
+                                <p>Help Center</p>
+                                <p>Corporate Information</p>
+                            </div>
+                            <div class="col-md-3 text-secondary">
+                                <p>Terms of Use</p>
+                            </div>
+                            <div class="col-md-3 text-secondary">
+                                <p>Privacy</p>
+                            </div>
+                            <div class="d-flex col-sm-12 justify-content-between">
+                                <div class="w-25 mx-auto ps-5"><img src="images/netflix_PNG25.png" class="w-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+    <script src="js/Signup.js"></script>
+</body>
+
+</html>

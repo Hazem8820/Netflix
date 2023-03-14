@@ -1,0 +1,118 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    scroll-behavior: smooth !important;
+}
+
+.signinbtn {
+    background-color: #e50914 !important;
+}
+
+.signintext {
+    color: #e50914 !important;
+}
+
+header {
+    background-image: url(../images/netflix.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 75vh;
+}
+
+.header {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .8) 0, transparent 40%, transparent 75%, rgba(0, 0, 0, .8));
+}
+
+.sider {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, .8) 0, transparent 40%, transparent 0%, rgba(0, 0, 0, .8)) !important;
+}
+
+.title1 {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.title2 {
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.form-control {
+    border: #e50914 solid 2px !important;
+}
+
+.form-border {
+    border: none !important;
+}
+
+.space {
+    height: 10px;
+}
+
+.story20 {
+    top: 72px;
+    left: 70px;
+}
+
+.Sthings {
+    top: 350px;
+    left: 170px;
+}
+
+.story21 {
+    top: 50px;
+    left: 120px;
+}
+
+.header2 {
+    background-image: url(../images/netflix.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header3 {
+    background-image: url(../images/1902820.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.content1 {
+    top: 46%;
+}
+
+.colNum1 {
+    overflow: hidden;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.colNum1:hover .showData {
+    bottom: 0;
+}
+
+.colNum1 .showData {
+    position: absolute;
+    bottom: 100%;
+    transition: all 0.4s 0.1s;
+}
+
+#learnMore {
+    cursor: pointer;
+}
+
+#alertNum,
+#alert {
+    list-style: none;
+}
+
+.menu a {
+    cursor: pointer;
+}
+
+.loading{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}

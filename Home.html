@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+
+<head>
+    <script src="js/auth.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/Netflix-N-Symbol-logo-red-transparent-RGB-png.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Manrope:wght@600&display=swap"
+        rel="stylesheet">
+    <title>Netflix</title>
+</head>
+
+<body class="bg-black">
+    <section class="loading h-100 w-100 bg-black position-relative z-3"></section>
+    <nav class="bg-black bg-opacity-50 border-bottom border-danger">
+        <div class="d-flex justify-content-between">
+            <div class="w-50 ps-5"><img src="images/netflix_PNG25.png" class="w-25" alt=""></div>
+            <div><button id="logoutBtn" class="signinbtn me-5 my-4 btn btn-danger">Logout</button></div>
+        </div>
+    </nav>
+    <header>
+        <div id="home" class="header bg-black h-100 d-flex bg-opacity-50 w-100">
+            <div class="container">
+                <div class="row row-cols-sm-12 align-items-center h-100">
+                    <div class="text-white w-75 mx-auto text-center">
+                        <h1 class="title1">Unlimited movies, TV shows, and more.</h1>
+                        <p class="fs-2">Watch anywhere. Cancel anytime.</p>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <section>
+        <div class="container-fluid">
+            <div id="display" class="row rowsettings m-0">
+
+            </div>
+        </div>
+    </section>
+    <div id="loader" class="loading bg-black position-fixed d-none z-3 d-flex justify-content-center align-items-center"><span class="loader"><img src="images/giphy.gif" class="w-100" alt=""></span></div>
+
+    <!--! ============ BootStrap JS File ============ -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--! ============ Main Js File ============ -->
+    <script src="js/home.js"></script>
+</body>
+
+</html>
